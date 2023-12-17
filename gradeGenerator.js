@@ -18,4 +18,4 @@ function calculateGrade(score) {
 }
 
 let grade = calculateGrade(score);
-window.alert(grade); //Prints the student's the grade
+window.alert(grade); //Prints the student's the grades
