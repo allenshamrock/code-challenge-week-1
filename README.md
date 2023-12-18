@@ -12,7 +12,8 @@ First challenge solution
 
 I used the prompt in built function to enable the user input the scores of the students
 I used different variables for storing data 
-I used the if else statements to manage the control flow to assign more than one alternatives
+I used the if else statements to manage the control flow to assign more than one alternatives,
+combined it with the switch statement to avoid expensive calculation.
 used the alert in build function to output the grade after the user inputs the student's score
 
 
