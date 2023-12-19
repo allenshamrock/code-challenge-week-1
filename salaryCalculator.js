@@ -1,15 +1,12 @@
 // Input prompt for the user
-let gross = prompt("Enter the gross salary");
+let gross = parseInt(prompt("Enter the gross salary"));
 
 // Check if the input is not empty and is a valid number
 if (gross === null || gross === "" || isNaN(gross)) {
-  console.log(
-    "Invalid. Please enter a valid number for the gross salary."
-  );
+  console.log("Invalid. Please enter a valid number for the gross salary.");
   window.alert("Invalid. Please enter a valid number for the gross salary.");
 } else {
   // Convert the input to a number
-  gross = parseFloat(gross);
 
   // Payee (tax) calculation
   let payee;
